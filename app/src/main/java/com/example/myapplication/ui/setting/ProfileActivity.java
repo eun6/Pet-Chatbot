@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.ui.login.LoginActivity;
-import com.example.myapplication.ui.login.PasswordChangeActivity;
+import com.example.myapplication.ui.newlogin.LoginActivity;
+//import com.example.myapplication.ui.newlogin.PasswordChangeActivity;
 
 public class ProfileActivity extends SettingActivity {
     private Intent intent;
@@ -28,9 +28,9 @@ public class ProfileActivity extends SettingActivity {
         pwchange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //비밀번호 재설정 화면으로 넘어가기
+                /*비밀번호 재설정 화면으로 넘어가기
                 Intent intent = new Intent(getApplicationContext(), PasswordChangeActivity.class);
-                startActivity(intent);
+                startActivity(intent);*/
             }
         });
         
